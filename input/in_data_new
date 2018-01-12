@@ -1,0 +1,17 @@
+# TODO: Global use parameters. ask_pass - asking your password or you may write the password
+USER:alex
+PASS:ask_pass
+
+# TODO: hosts:10.1.1.2,10.1.1.3,10.1.1.4 or path to file with hosts addresses or FQDN
+host:10.1.1.2
+user:root
+    commands
+        hostname
+        update
+        reboot
+        pkg list
+        # or pure shell commands
+    install
+        # in a string with comma or with new line
+        7zip, htop, vim
+        git

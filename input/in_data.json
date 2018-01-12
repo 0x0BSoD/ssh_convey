@@ -1,0 +1,15 @@
+{"%HOST%": {
+    "commands": {
+
+    },
+    "install": {
+
+    },
+    "edit_files": {
+        "/etc/ssl/ssl.conf": {
+          "find_delete":    "",
+          "find_replase": "",
+          "add":     ""
+        }
+      }
+}}

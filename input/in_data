@@ -1,0 +1,55 @@
+USER:alex
+PASS:ask_pass
+host:10.1.1.2
+user:root
+commands{
+    --hostname
+    --uname -v
+    --apt update
+    --apt full-upgrade -y
+}
+host:10.1.1.3
+commands{
+    --hostname
+    --uname -v
+    --sudo apt update
+    --sudo apt full-upgrade -y
+    --sudo apt autoremove -y
+    --sudo apt clean
+}
+host:10.1.1.4
+commands{
+    --hostname
+    --uname -v
+    --sudo apt update
+    --sudo apt full-upgrade -y
+    --sudo apt autoremove -y
+    --sudo apt clean
+}
+host:10.1.1.5
+commands{
+    --hostname
+    --uname -v
+    --sudo yum update -y
+}
+host:10.1.1.6
+commands{
+    --hostname
+    --uname -v
+    --sudo yum update -y
+}
+host:10.1.1.8
+commands{
+    --hostname
+    --uname -v
+    --sudo yum update -y
+}
+host:10.1.1.9
+commands{
+    --hostname
+    --uname -v
+    --sudo apt update
+    --sudo apt full-upgrade -y
+    --sudo apt autoremove -y
+    --sudo apt clean
+}
